@@ -48,7 +48,8 @@ class App extends Component {
         if (!this.state.selectedCategory) {
             return (
                 <div className="App">
-                    <Header title="R FLavouright Food" />
+                    <Header title="R FLavouright Fuude" />
+                    <h5>By Dyslexic Diner Inc.</h5>
                     <h2>Please choose a delicacy to view recipes</h2>
                     <div className="container">
                         <Buttons
@@ -101,7 +102,8 @@ class App extends Component {
                 <button className="back" onClick={this.handleBack}>
                     Back
                 </button>
-                <Header title="R FLavouright Food" />
+                <Header title="R FLavouright Fuude" />
+                <h5>By Dyslexic Diner Inc.</h5>
                 <h2>{subHeading}</h2>
                 <ul>
                     {items.map(item => (
