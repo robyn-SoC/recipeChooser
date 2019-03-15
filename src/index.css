@@ -1,14 +1,79 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(122, 255, 184);
+    font-family: "Tenor Sans", sans-serif;
+    height: 100vh;
+    width: 100vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+    font-size: 50pt;
+    margin: 40px 0px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+ul {
+    padding: 0px 25vw;
+}
+
+li {
+    list-style: none;
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+.btn-box {
+    width: 15%;
+    height: 15vw;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(221, 132, 181);
+    background-color: rgb(247, 179, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(247, 179, 216);
+    border: none;
+    font-size: 15pt;
+}
+.thumbnail {
+    border-radius: 20px;
+    border: 3px solid rgb(221, 132, 181);
+    height: 225px;
+    width: 225px;
+}
+
+.description {
+    padding: 0px 15px;
+}
+
+.back {
+    width: 4%;
+    height: 3vw;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(221, 132, 181);
+    background-color: rgb(247, 179, 216);
 }
